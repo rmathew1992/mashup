@@ -1,7 +1,7 @@
 mashup
 ======
 
-the mashup repo
+the mashup repo. Fork this repo.
 
 ## The mashups
 
