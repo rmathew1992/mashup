@@ -23,3 +23,5 @@ For the rest of you guys, you will be graded on
 * 30% for presentation and demonstration
 * 40% for functionality
 * 30% for difficulty of the application
+
+When you're done, [add your mashup to the spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AjqGw-pw5UuudFZ2WEN0Qm5UNWJmSkxNSlNtcjFPaWc#gid=0)
