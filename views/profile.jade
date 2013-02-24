@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  style(type="text/css")
+  div(id="container")
+    div(id="profile")
+     img(height="150px", width="122px",src=profpic, id="profpic")
+    div(id="header")
+      h1
+        p
+          div(id="title") 
+           Welcome Welcome #{profile.first_name} #{profile.last_name}
+          span(class="dot green")
+        p
+         div(id="Smaller title") Submit a picture of your wonderful face and we'll tell you who you look like!
+      input(type='file', name='upload', multiple='multiple')
+      form(method='post', action='/result', id="neworderform")
+        div(id="button")
+          button('type='submit' id="submitButton")
+            | Upload        
+  div(id="corner")
+    br
+    br
+    br
+    br
+    a(href="/logout", id="showControls")
+      | Logout
+    
